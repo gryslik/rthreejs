@@ -6,6 +6,7 @@ HTMLWidgets.widget(
 
   initialize: function(el, width, height)
   {
+
     var r;
     if(Detector.webgl)
     {

@@ -43,6 +43,7 @@ Widget.render = function(w, h)
   var is_animated = false;
 
   _this.init = function (el, width, height)
+  
   {
     if(Detector.webgl)
     {
@@ -95,6 +96,7 @@ Widget.render = function(w, h)
  */
   _this.create_plot = function(x)
   {
+  
     new THREE.ObjectLoader().load(x.datauri, function (loadedScene)
     {
 // XXX what about geometries? (https://threejs.org/docs/index.html#api/loaders/ObjectLoader)
